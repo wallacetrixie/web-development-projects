@@ -1,0 +1,39 @@
+.block{
+    margin-left:500px;
+    color:white;
+    height:1500px;
+    width:700px;
+    padding:30px;
+    background-color:rgb(29, 4, 4);
+    font-weight:bold;
+    font-size:20px;
+}
+.output1{
+    height:50px;
+    width:200px;
+    padding:20px;
+    font-weight:bold;
+    margin-left:30px;
+    color:black;
+    font-size:15px;
+}
+.output2{
+    height:50px;
+    width:200px;
+    padding:20px;
+    font-weight:bold;
+    color:black;
+    font-size:15px;
+}
+.calculate{
+    height:50px;
+    width:150px;
+    font-weight:bold;
+    margin-left:400px;
+    font-size:20px;
+    color:rgb(247, 240, 240);
+    border-radius:10px;
+    background-color:rgb(196, 79, 26);
+
+    
+}

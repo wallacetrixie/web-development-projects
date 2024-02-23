@@ -1,0 +1,118 @@
+<!DOCTYPE hTML>
+<head>
+    <title>
+        Calculator
+    </title>
+    <body>
+        <link rel="stylesheet" href="calculator.css"/>
+       <div class="buttons">
+        <div >
+            <input class="input" placeholder="0" id="output_screen" />
+           <button class="b"
+           onclick="display('0')">
+            0
+          </button>
+
+          <button class="b"
+          onclick="display('1')">
+            1
+          </button>
+
+          <button class="b"
+          onclick="display('2')">
+            2
+          </button>
+
+          <button class="b"
+          onclick="display('3')">
+            3
+          </button>
+
+          <button class="b"
+          onclick="display('4')">
+            4
+          </button>
+
+          <button class="b"
+          onclick="display('5')">
+            5
+          </button>
+
+          <button class="b"
+          onclick="display('6')">
+            6
+          </button>
+
+          <button class="b"
+          onclick="display('7')">
+            7
+          </button>
+
+          <button class="b"
+          onclick="display('8')">
+            8
+          </button>
+
+          <button class="b"
+          onclick="display('9')">
+            9
+          </button>
+
+          <button class="b"
+          onclick="display('+')">
+            +
+          </button>
+
+          <button class="b"
+          onclick="display('-')">
+            -
+          </button>
+
+          <button class="b"
+          onclick="display('*')">
+            *
+          </button>
+
+          <button class="b"
+          onclick="display('/')"> 
+            /
+          </button>
+
+          <button class="b"
+          onclick="Clear()">
+            DEL
+          </button>
+
+          <button class="b"
+          onclick="Calculate()">
+            =
+          </button>
+          <button class="name">
+            WALLACE
+         </button>
+       </div>
+       <script>
+        let output=document.getElementById("output_screen");
+
+        function display(num)
+        {
+          output.value+=num;
+        }
+        function Clear()
+        {
+          output.value="";
+        }
+        
+        function Calculate()
+        {
+          try{
+            output.value=eval(output.value);
+          }
+          catch(err)
+          {
+            alert('invalid');
+          }
+        }
+       </script>
+    </body>
+</head>

@@ -1,0 +1,43 @@
+.a_block{
+    background-color: rgb(34, 15, 15);
+    width:700px;
+    height:500px;
+    margin-left:400px;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+.input1{
+    border-radius:5px;
+    margin-left:10px;
+    padding:5px;
+    height:25px;
+    font-weight:bold;
+    font-size:20px;
+}
+.input2{
+    border-radius:5px;
+    margin-left:23px;
+    padding:5px;
+    height:25px;
+    font-weight:bold;
+    font-size:20px;
+}
+.calculate{
+    margin-top:20px;
+    margin-left:300px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #eb0f0f;
+    padding:15px;
+  }
+  .answer{
+    height:100px;
+    width:300px;
+    font-size: 18px;
+    color: #0e0202;
+    background-color:white;
+    font-weight:bold;
+    padding:15px;
+  }
